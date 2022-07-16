@@ -27,7 +27,7 @@ const Header = () => {
               <img
                 style={{ cursor: 'pointer', width: '10rem' }}
                 src="/images/logo.png"
-                alt="scapes"
+                alt="Krishna"
               />
             </Link>
           </div>

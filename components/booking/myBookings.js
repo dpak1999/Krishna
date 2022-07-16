@@ -83,9 +83,9 @@ const MyBookings = () => {
       marginRight: 25,
       marginLeft: 25,
       marginBottom: 25,
-      logo: 'https://res.cloudinary.com/snazzycave/image/upload/v1643294618/scapes/logo_kfy6w3.png',
+      logo: 'https://res.cloudinary.com/snazzycave/image/upload/v1657974101/snazzycave/logo2_jot217.png',
       sender: {
-        company: 'Scapes',
+        company: 'Krishna Cottage',
         address: 'India',
         zip: '',
         city: '',
@@ -112,7 +112,8 @@ const MyBookings = () => {
           price: booking.room.pricePerNight,
         },
       ],
-      bottomNotice: 'This is auto generated Invoice of your booking on Scapes.',
+      bottomNotice:
+        'This is auto generated Invoice of your booking on Krishna Cottage.',
     };
 
     const result = await easyInvoice.createInvoice(data);

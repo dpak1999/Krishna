@@ -120,7 +120,7 @@ const RoomDetails = () => {
   return (
     <>
       <Head>
-        <title>{room.name} - Scapes</title>
+        <title>{room.name} - Krishna Cottage</title>
       </Head>
       <div className="container container-fluid">
         <h2 className="mt-5">{room.name}</h2>
